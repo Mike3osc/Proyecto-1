@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon_pcc.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>Ofertas TOP ¡Superdescuentos!</title>
+</head>
+
+<body>
+  <header id="header">
+    <div id="upper_header">
+      <img src="./assets/logo-pccomponentes.svg" alt="logo-pccomponentes" class="logo">
+      <div class="buscador">
+        <select name="categorias" id="category">
+          <option value="categorias">Todas las categorias</option>
+          <option value="categorias">Reacondicionados</option>
+        </select>
+        <label for="buscar">
+          <input id="buscar" type="search" placeholder="Buscar">
+          <button><a href="#"><img src="./assets/lupa.png" alt="lupa busqueda"></a></button>
+        </label>
+      </div>
+      <nav class="header_lateral">
+        <ul>
+          <li>
+            <button>
+              <a href="#"><img src="./assets/compromisos.png" alt="compromisos"><span>Compromisos</span></a></button>
+          </li>
+          <li>
+            <button>
+              <a href="#"><img src="./assets/micuenta.png" alt="mi cuenta"><span>Mi cuenta</span></a></button>
+          </li>
+          <li>
+            <button>
+              <a href="#"><img src="./assets/carrito-de-compras.png" alt="mi cesta"><span>Mi cesta</span></a></button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="lower_header">
+      <button><a href="#"><img src="./assets/menu.png" alt="menu"><span>Todas las categoría</span></a></button>
+      <span><strong>Expertos en tecnología</strong> con un servicio 5 estrellas</span>
+      <button><a href="#"><span>Top ofertas</span></a></button>
+    </div>
+  </header>
+  <main id="grid-container">
+    <div class="aside">
+      <nav>
+        <ul>
+          <li>
+            <div class="desplegable">
+              <select name="marcas" id="marcas">
+                <option>Marcas</option>
+                <option>Acer</option>
+                <option>Asus</option>
+                <option>Dell</option>
+                <option>HP</option>
+                <option>Lenovo</option>
+                <option>MSI</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="desplegable">
+              <select name="procesador" id="procesador">
+                <option>Procesador</option>
+                <option>Intel Core i5</option>
+                <option>Intel Core i7</option>
+                <option>Intel Core i9</option>
+                <option>AMD Ryzen 3</option>
+                <option>AMD Ryzen 5</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="desplegable">
+              <select name="RAM" id="ram">
+                <option>Memoria RAM</option>
+                <option>8GB</option>
+                <option>16GB</option>
+                <option>32GB</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="desplegable">
+              <select name="OS" id="os">
+                <option>Sistema Operativo</option>
+                <option>Freedos</option>
+                <option>Sin Sistema</option>
+                <option>Windows 11</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="desplegable">
+              <select name="grafica" id="grafica">
+                <option>Tarjeta grafica</option>
+                <option>Sin grafica</option>
+                <option>nVidia RTX 4060</option>
+                <option>nVidia RTX 4070</option>
+                <option>nVidia RTX 4080</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="desplegable">
+              <select name="almacenamiento" id="ssd">
+                <option>Almacenamiento</option>
+                <Option>256GB</Option>
+                <option>512GB</option>
+                <option>1TB</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section class="articles">
+      <div class="article">
+        <a href="#article_1" target="_blank">
+          <p><strong>-30%</strong></p>
+          <img src="./assets/1-asus-vivobook.webp" alt="Asus Vivobook">
+          <div id="remarks">
+            <p>Patrocinado</p>
+            <p>Envio gratis</p>
+          </div>
+          <p id="description">ASUS Vivobook Intel Core i5-1235U/16GB/512GB SSD/16"/Sin sistema</p>
+          <div id="price">
+            <span><strong>769€</strong></span>
+            <span>PVPR 999€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_negra.png" alt="rating">
+            <p>(805)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Pocas unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="30"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_2" target="_blank">
+          <p><strong>-30%</strong></p>
+          <img src="./assets/2-asus-tuf.webp" alt="Asus Tuf">
+          <div id="remarks">
+            <p>Oferta</p>
+            <p>Envio gratis</p>
+          </div>
+          <p id="description">ASUS TUF Intel Core i5-11400H/16GB/512GB SSD/15.6"</p>
+          <div id="price">
+            <span><strong>699€</strong></span>
+            <span>PVPR 899€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_negra.png" alt="rating">
+            <p>(174)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Pocas unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="10"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_3" target="_blank">
+          <p><strong>-14%</strong></p>
+          <img src="./assets/3-acer-aspire-3.webp" alt="Acer Aspire 3">
+          <div id="remarks">
+            <p>Patrocinado</p>
+            <p>Envio 5€</p>
+          </div>
+          <p id="description">ACER Aspire 3 AMD Ryzen 5 7520U/8GB/256GB SSD/15.6"/Windows 11</p>
+          <div id="price">
+            <span><strong>429€</strong></span>
+            <span>PVPR 499€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_negra.png" alt="rating">
+            <img src="./assets/estrella_negra.png" alt="rating">
+            <p>(52)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Quedan 72 unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="80"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_4" target="_blank">
+          <p><strong>-20%</strong></p>
+          <img src="./assets/4-msi-pulse-17.webp" alt="MSI Pulse 17">
+          <div id="remarks">
+            <p>Oferta</p>
+            <p>Envio gratis</p>
+          </div>
+          <p id="description">MSI Pulse 17 Intel Core i7-12650H/16GB/1TB SSD/17"/RTX4060</p>
+          <div id="price">
+            <span><strong>1.039€</strong></span>
+            <span>PVPR 1.299€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <p>(147)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Quedan 8 unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="10"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_5" target="_blank">
+          <p><strong>-33%</strong></p>
+          <img src="./assets/5-hp-15.webp" alt="HP 15">
+          <div id="remarks">
+            <p><strong>Black Friday</strong></p>
+            <p>Envio 5€</p>
+          </div>
+          <p id="description">HP 15 Intel Core i5-1235U/16GB/512GB SSD/15.6"/Windows 11</p>
+          <div id="price">
+            <span><strong>459€</strong></span>
+            <span>PVPR 699€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_negra.png" alt="rating">
+            <p>(1.107)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Pocas unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="15"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_6" target="_blank">
+          <p><strong>-7%</strong></p>
+          <img src="./assets/6-msi-vector.webp" alt="MSI Vector">
+          <div id="remarks">
+            <p><strong>Black Friday</strong></p>
+            <p>Envio gratis</p>
+          </div>
+          <p id="description">MSI Vector Intel Core i9-13900H/32GB/1TB SSD/16"/Freedos</p>
+          <div id="price">
+            <span><strong>1.859€</strong></span>
+            <span>PVPR 1.999€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <p>(99)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Quedan 3 unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="5"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_7" target="_blank">
+          <p><strong>-12%</strong></p>
+          <img src="./assets/7-lenovo-ideapad-3.webp" alt="Lenovo Idepad 3">
+          <div id="remarks">
+            <p>Oferta</p>
+            <p>Envio gratis</p>
+          </div>
+          <p id="description">Lenovo Idepad 3 AMD Ryzen 7-7720U/16GB/512GB SSD/15.6"/Windows 11</p>
+          <div id="price">
+            <span><strong>529€</strong></span>
+            <span>PVPR 599€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <p>(328)</p>
+          </div>
+          <p id="delivery">Recibelo en 48h</p>
+          <p id="soldby">Vendido por <strong>Bullastec</strong></p>
+          <p id="stock">Quedan 3 unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="5"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_8" target="_blank">
+          <p><strong>-19%</strong></p>
+          <img src="./assets/8-acer-chromebook.webp" alt="Acer Chromebook">
+          <div id="remarks">
+            <p><strong>Black Friday</strong></p>
+            <p>Envio gratis</p>
+          </div>
+          <p id="description">ACER Chromebook Mediatek-A9/4GB/64GB SSD/14"/Chrome OS</p>
+          <div id="price">
+            <span><strong>239€</strong></span>
+            <span>PVPR 299€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <p>(28)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Quedan 84 unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="60"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_9" target="_blank">
+          <p><strong>-25%</strong></p>
+          <img src="./assets/9-dell-vostro.webp" alt="Dell Votro">
+          <div id="remarks">
+            <p><strong>Black Friday</strong></p>
+            <p>Envio 5€</p>
+          </div>
+          <p id="description">DELL Vostro AMD Ryzen 3-7320U/8GB/256GB SSD/14"/Sin Sistema</p>
+          <div id="price">
+            <span><strong>299€</strong></span>
+            <span>PVPR 399€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_negra.png" alt="rating">
+            <img src="./assets/estrella_negra.png" alt="rating">
+            <img src="./assets/estrella_negra.png" alt="rating">
+            <p>(581)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Pocas unidades</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="52"></progress>
+          </div>
+        </a>
+      </div>
+      <div class="article">
+        <a href="#article_10" target="_blank">
+          <p><strong>-8%</strong></p>
+          <img src="./assets/10-lenovo-yoga-9.webp" alt="Lenovo Yoga 9">
+          <div id="remarks">
+            <p><strong>Promocionado</strong></p>
+            <p>Envio gratis</p>
+          </div>
+          <p id="description">Lenovo Yoga 9/16GB/512GB SSD/14"/Pantalla rotativa/Windows 11</p>
+          <div id="price">
+            <span><strong>1.569€</strong></span>
+            <span>PVPR 1.699€</span>
+          </div>
+          <div class="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <img src="./assets/estrella_naranja.png" alt="rating">
+            <p>(325)</p>
+          </div>
+          <p id="delivery">Recibelo mañana</p>
+          <p id="soldby">Vendido por <strong>PcComponentes</strong></p>
+          <p id="stock">Ultima unidad</p>
+          <div class="progress_bar">
+            <label for="progressbar"></label>
+            <progress id="progressbar" max="100" value="1"></progress>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+
+</body>
+
+</html>
