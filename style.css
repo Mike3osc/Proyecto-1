@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 :root {
 
   /*Paleta de colores*/
@@ -19,6 +21,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 * > img {
@@ -373,7 +376,7 @@ progress::-webkit-progress-value {
 
 }
 
-@media (max-width: 767px) {
+@media (min-width:375px) and (max-width: 767px) {
   .aside {
     display: none;
   }
@@ -389,5 +392,35 @@ progress::-webkit-progress-value {
     align-items: center;
     gap: 30px;
     font-size: var(--pcc-fontsize-header-s);
+  }
+}
+
+@media (max-width: 374px) {
+  .aside {
+    display: none;
+  }
+
+  #grid-container {
+    display: flex;
+  }
+
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: var(--pcc-fontsize-header-s);
+  }
+
+  .header_lateral {
+    display: none;
+  }
+
+  .buscador {
+    width: 100%;
+    grid-column: 2 / 4;
+    grid-row: 1 / 1;
+    padding: 10px 10px 10px 20px;
   }
 }
