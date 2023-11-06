@@ -339,8 +339,8 @@ progress::-webkit-progress-value {
   .logo {
     width: 100%;
     grid-column: 1 / 2;
-    grid-row: 1 / 1; 
-    justify-content: flex-start;
+    grid-row: 1 / 1;
+    padding-left: 0px;
   }
 
   .buscador {
