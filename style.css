@@ -136,6 +136,43 @@ button > a > span {
   display: flex;
 }
 
+.burger_menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 5px;
+
+}
+
+.burger_menu > nav > ul {
+  display: none;
+}
+
+.burger_menu > nav > ul > li:hover {
+  background-color: var(--pcc-font-primarycolor);
+}
+
+.burger_menu > nav > input:checked ~ ul {
+  display: block;
+}
+
+.burger_menu > nav > input {
+  display: none;
+}
+
+.burger_menu > nav > ul > li {
+  display: block;
+  border: 1px solid var(--pcc-border-color);
+  background-color: white;
+}
+
+.burger_menu > nav > ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: var(--pcc-font-secondarycolor);
+  font-size: var(--pcc-fontsize-header-m);
+}
+
 #grid-container {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -393,6 +430,8 @@ progress::-webkit-progress-value {
     gap: 30px;
     font-size: var(--pcc-fontsize-header-s);
   }
+
+
 }
 
 @media (max-width: 374px) {
@@ -424,7 +463,9 @@ progress::-webkit-progress-value {
     padding: 10px 10px 10px 20px;
   }
 
-  
+  .burger_menu {
+    display: block;
+  }
 }
 
 footer {
