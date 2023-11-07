@@ -424,15 +424,16 @@ progress::-webkit-progress-value {
     padding: 10px 10px 10px 20px;
   }
 
+  
 }
 
 footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  justify-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   border-top: 1px solid var(--pcc-border-color);
-  padding: 10px;
+  padding-top: 10px;
+  gap: 20px;
   font-size: var(--pcc-fontsize-header-m);
 }
 
@@ -454,7 +455,6 @@ footer > div > ul > li:hover {
 footer > div > ul > li > a > img {
   margin-right: 10px;
 }
-
 
 
 
