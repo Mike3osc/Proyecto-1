@@ -423,4 +423,38 @@ progress::-webkit-progress-value {
     grid-row: 1 / 1;
     padding: 10px 10px 10px 20px;
   }
+
 }
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  border-top: 1px solid var(--pcc-border-color);
+  padding: 10px;
+  font-size: var(--pcc-fontsize-header-m);
+}
+
+footer > div > ul {
+  list-style: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+footer > div > ul > li > a{
+  text-decoration: none;
+  color: var(--pcc-font-secondarycolor);
+}
+
+footer > div > ul > li:hover {
+  background-color: var(--pcc-border-color);
+}
+
+footer > div > ul > li > a > img {
+  margin-right: 10px;
+}
+
+
+
+
